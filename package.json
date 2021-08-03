@@ -1,7 +1,6 @@
 {
   "name": "myfirstwebsite",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,11 +11,21 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "jquery": "^3.6.0",
     "mongoose": "^5.13.3",
     "nodemon": "^2.0.12",
     "validator": "^13.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icmulnk57/mysite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/icmulnk57/mysite/issues"
+  },
+  "homepage": "https://github.com/icmulnk57/mysite#readme",
+  "description": ""
 }

@@ -23,8 +23,10 @@ app.use(express.static(staticpath))
 
 
 
+
 app.set("view engine","hbs");
 app.set("views",templatespath);
+
 
 
 
@@ -35,6 +37,10 @@ app.get("/",(req,res)=>{
 })
 
 
+app.set("views",templatespath);
+app.get("/sitemap",(req,res)=>{
+    res.render("sitemap");
+})
 
 
 
